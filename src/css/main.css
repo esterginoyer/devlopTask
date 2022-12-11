@@ -1,0 +1,129 @@
+body {
+    background-color: #E6EAF4;
+    padding-top: 30px;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+.client-container {
+    width: 440px;
+    padding: 32px;
+    margin: 0px auto;
+}
+
+.clients-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.client {
+    height: 104px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+.client-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.client-buttons {
+    width: 72px;
+    height: 44px;
+    margin-left: 3px;
+}
+
+.client-buttons button {
+    width: 100%;
+    height: 100%;
+    background-color: #72DB63;
+    border: 1px solid #81C877;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+}
+
+/*NEW client*/
+
+.new-client-container {
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+.new-client-inputs {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.new-client-input {
+    padding-bottom: 20px;
+    flex-grow: 1;
+    /* display: flex; */
+    align-items: center;
+    position: relative;
+    direction: rtl;
+}
+.new-client-select{
+    padding-bottom: 20px;
+    flex-grow: 1;
+    align-items: center;
+    position: relative;
+    direction: rtl;
+}
+
+.new-client-input label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.new-client-select label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.new-client-input input {
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #a6a6a6;
+    flex-grow: 1;
+}
+
+.new-client-buttons {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.new-client-buttons button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #a6a6a6;
+}
+
+
+.labelName{
+    color: red ;
+    font-size: 10px;
+    position: absolute;
+    width: 100%; 
+}
+/*END NEW client*/
